@@ -16,3 +16,8 @@ public class sumOfDigits {
     }
 }
 
+// Real/decimal math: 527 ÷ 10 = 52.7
+// Integer division (Java, with int/long): 527 / 10 gives 52 (the .7 is truncated). This is exactly what you want for “remove last digit”.
+// Sum-of-digits logic:
+// Last digit: num % 10 → 7
+// Remove last digit: num = num / 10 → 52 (integer division)

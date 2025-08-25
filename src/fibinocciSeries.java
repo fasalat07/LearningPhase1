@@ -1,8 +1,8 @@
 public class fibinocciSeries {
     public static void main(String[] args) {
 
-        // what isfibinocci series ?
-        //Each number is the sum of the two numbers before it. and iyt starts with 0and 1
+        // what is fibinocci series ?
+        //Each number is the sum of the two numbers before it. and it starts with 0 and 1
 
 
         int num= 10;                   // till where to find fibinocci series

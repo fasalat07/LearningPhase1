@@ -1,26 +1,27 @@
 public class primeNumber1_100 {
 
-
+    // A prime number is a whole number greater than 1 that has only two factors: 1 and itself.
 
     public static void main(String[] args) {
 
-        int prime = 0;
+        int prime = 0;  // variable to count the number of factors
 
-        for(int num=1; num <= 100; num ++){   // it will pass the number from 1 to 100
+        // Loop through numbers from 1 to 100
+        for (int num = 1; num <= 100; num++) {
 
-            for(int i=1; i<=num; i++){ // it will iterate from 1 to 100 for perfroming below logic for eac number
-
-             if (num % i ==0){  // this will divide the number starting from 1 to 100 and compare if the reminder is equal to zero
-                 prime++;  //if the reminder equal to zero then it will increase prime
-             }
-
-            }
-            if(prime==2){  // Ideally prime number is something which can be divisible by itself and one so  if it is prime equals to zero
-
-                System.out.println(+num+"  "+   "the number is prime");
+            // Check how many numbers divide 'num' completely
+            for (int i = 1; i <= num; i++) {
+                if (num % i == 0) {   // if remainder is 0, then 'i' is a factor of 'num'
+                    prime++;          // increase the factor count
+                }
             }
 
-             prime=0;    // prime needs to be again zero else it will fail the above condition
+            // If 'num' has exactly 2 factors (1 and itself), then it is prime
+            if (prime == 2) {
+                System.out.println(num + " is a prime number");
+            }
+
+            prime = 0; // reset factor count for the next number
 
         }
 

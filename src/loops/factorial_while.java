@@ -1,3 +1,5 @@
+package loops;
+
 public class factorial_while {
     public static void main(String[] args) {
 

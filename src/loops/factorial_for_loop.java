@@ -1,3 +1,5 @@
+package loops;
+
 public class factorial_for_loop {
 
     public static void main(String[] args) {

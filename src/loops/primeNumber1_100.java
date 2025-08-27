@@ -1,3 +1,5 @@
+package loops;
+
 public class primeNumber1_100 {
 
     // A prime number is a whole number greater than 1 that has only two factors: 1 and itself.

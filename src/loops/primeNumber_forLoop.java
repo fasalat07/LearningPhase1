@@ -1,3 +1,4 @@
+package loops;
 
 //check for prime number for a specefic number
 public class primeNumber_forLoop {

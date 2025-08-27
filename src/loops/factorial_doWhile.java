@@ -1,4 +1,4 @@
-
+package loops;
 //Write a program using loop - Find Factorial number (use for loop, while and do while loop)
 
 public class factorial_doWhile {

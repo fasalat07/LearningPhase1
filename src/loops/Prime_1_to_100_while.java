@@ -1,3 +1,5 @@
+package loops;
+
 public class Prime_1_to_100_while {
 
     public static void main(String[] args) {

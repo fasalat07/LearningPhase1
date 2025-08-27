@@ -1,3 +1,5 @@
+package loops;
+
 public class Prime_do_while_100 {   // Class name must match file name
 
     public static void main(String[] args) {   // Main method - entry point of Java program

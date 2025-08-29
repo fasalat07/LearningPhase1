@@ -5,7 +5,7 @@ package loops;
 // each raised to the power of the total number of digits.
 //
 // Example: 153
-// Digits = 3 → (1*3 + 5*3 + 3*3) = (1 + 125 + 27) = 153 → Armstrong number
+// Digits = 3 → (1*3 + 5*3 + 3*3) = (3 + 125 + 27) = 153 → Armstrong number
 
 public class Armstrong {
 

@@ -37,6 +37,7 @@ public class ClassLoading {
             System.out.println("from non-static method");
         }
 
+
         public static void main(String[] args) {
             // -------- Step 2 (main starts after class load) --------
             System.out.println("program started");

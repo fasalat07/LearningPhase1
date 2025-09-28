@@ -6,16 +6,18 @@ public class Program02 extends Program01 {
     static int d = 21;
     static int b = 23;
 
-    public void childNSmethod()
-    {
+    public void childNSmethod() {
 
         System.out.println("NS method from child");
     }
 
-    static public void childSmethod()
-    {
+    static public void childSmethod() {
 
         System.out.println("static method from child");
+    }
+
+    {
+        System.out.println("Child static block");
     }
 
     public static void main(String[] args) {
@@ -26,21 +28,22 @@ public class Program02 extends Program01 {
         childSmethod();
         obj.childNSmethod();
         System.out.println("=========================================");
-        System.out.println("Without using extends keyword");
 
+        System.out.println("Without using extends keyword");
         //both are in same package and are public
         System.out.println(Program01.b);
         Program01 obj1 = new Program01();
         obj1.parentNSmethod();
         System.out.println(obj1.a);
-        System.out.println("============================================");
 
+        System.out.println("============================================");
         System.out.println("with using extends keyword");
         Program02 child = new Program02();
         child.childNSmethod();
         System.out.println(child.c);
         System.out.println(child.d);
         child.childSmethod();
+
         System.out.println("Single level inheritence: using child object i am accessing parent members");
         System.out.println(child.a);
         System.out.println(child.b);

@@ -20,6 +20,7 @@ public class Program01 {
         Program01 obj = new Program01();
         System.out.println(obj.a);
 
+
         parentSmethod();
         obj.parentNSmethod();
 

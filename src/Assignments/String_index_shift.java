@@ -3,7 +3,7 @@ package Assignments;
 //Java program to gives Output: “32412120000” for the Input String Str = “32400121200”
 
 
-public class String_Input_output {
+public class String_index_shift {
 
     public static void main(String[] args) {
 

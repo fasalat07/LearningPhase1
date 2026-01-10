@@ -11,11 +11,11 @@ public class String_index_shift {
         String str = "32400121200";
 
         // now string will be converted to individual characters and stored in array
-        char[] arr = str.toCharArray();
+         char[] arr = str.toCharArray();
 
 
         // Create a result array with the same length
-        char[] result = new char[arr.length];
+        int[] result = new int[arr.length];
 
         // Index to track the position for non-zero characters
         int index = 0;
@@ -24,21 +24,24 @@ public class String_index_shift {
         // start for each loop to iterate through array
         // Datatype is character as we converted string to char to separate zero
 
-        for (char c : arr) {
+        for (int c : arr) {
 
             // If the character is NOT '0'
             if (c != '0') {
 
                 // Place the character in result array
                 result[index] = c;
+                System.out.println(result[index]);
 
                 // Move index to the next position
                 index++;
             }
 
-
         }
-        System.out.println(result);
+
+
+
+
         // how zeros are coming at the end ? because when we initiated result array initially it will look like
         //['\0','\0','\0','\0','\0','\0','\0','\0','\0','\0','\0']
         //We copy ONLY non-zero characters and So we fill from the front

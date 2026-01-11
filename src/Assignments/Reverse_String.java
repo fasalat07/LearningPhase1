@@ -1,6 +1,6 @@
 package Assignments;
 
-//"input: String str = "Test45@W";
+//input: String str = "Test45@W";
 //output: West45@T
 
 public class Reverse_String {
